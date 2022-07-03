@@ -109,17 +109,29 @@ www/wwwroot/config/database.php 修改对应的MySQL信息
 
 'mysql' => [
             'driver' => 'mysql',
+            
             'host' => env('DB_HOST', '127.0.0.1'),
+            
             'port' => env('DB_PORT', '3306'),
+            
             'database' => env('DB_DATABASE', 'ssrpanel'),
+            
             'username' => env('DB_USERNAME', 'ssrpanel'),
+            
             'password' => env('DB_PASSWORD', 'ssrpanel'),
+            
             'unix_socket' => env('DB_SOCKET', ''),
+            
             'charset' => 'utf8mb4',
+            
             'collation' => 'utf8mb4_unicode_ci',
+            
             'prefix' => '',
+            
             'strict' => env('DB_STRICT', true),
+            
             'engine' => null,
+            
         ],
 
 因为网站需要用到 MySQL 数据库，这一步我们配置数据库连接信息。
@@ -139,13 +151,13 @@ DB_HOST: 数据库地址，如果在本机就是 127.0.0.1；
 
 DB_PORT: 数据库端口，默认 3306；
 
-DB_DATABASE: 数据库名；
+DB_DATABASE: ssrpanel；
 
-DB_USERNAME: 数据库用户名；
+DB_USERNAME: ssrpanel；
 
-DB_PASSWORD: 数据库密码；
+DB_PASSWORD: ssrpanel；
 
-REDIRECT_HTTPS: 是否启用 HTTPS。重要！重要！重要！
+REDIRECT_HTTPS: true     是否启用 HTTPS。重要！重要！重要！
 
 运行目录
 
