@@ -12,6 +12,7 @@ cd www/wwwroot/网站路径
 # 克隆文件到目录
 方法1
 git git clone https://github.com/mh3400425/XiuGouDisco-master.git
+
 方法1
 wget -N --no-check-certificate https://github.com/hubooy/ssrpanel-deploy.git
 
